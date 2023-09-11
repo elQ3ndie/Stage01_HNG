@@ -9,7 +9,7 @@ function getCurrentDayOfWeek() {
   
   function getCurrentUTCTime() {
     const currentDate = new Date();
-    const currentTime = currentDate.toISOString();
+    const currentTime = currentDate.now();
     return currentTime;
   }
   
