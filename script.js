@@ -8,8 +8,8 @@ function getCurrentDayOfWeek() {
   }
   
   function getCurrentUTCTime() {
-    const currentDate = new Date();
-    const currentTime = currentDate.now();
+    // const currentDate = new Date();
+    const currentTime = Date.now();
     return currentTime;
   }
   
