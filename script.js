@@ -13,6 +13,6 @@ function getCurrentDayOfWeek() {
     return currentTime;
   }
   
-  document.getElementById('currentDayOfTheWeek').textContent = getCurrentDayOfWeek();
-  document.getElementById('currentUTCTime').textContent = getCurrentUTCTime();
+  document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = getCurrentDayOfWeek();
+  document.querySelector('[data-testid="currentUTCTime"]').textContent = getCurrentUTCTime();
   
